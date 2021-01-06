@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" type="image/x-icon" href="imgs/flogo.png">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/popper.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="css/os_meus_estilos.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-lg justify-content-between sticky-top">
+    <div class="container-fluid">
+        <a href="Home.html" class=" text-center fl">
+            <img src="imgs/flogo.png" alt="logo">
+        </a>
+        <a href="Home.html" class="navbar-brand mx-auto text-center order-1 bd">
+            <img src="imgs/logo-20.png" alt="logo">
+        </a>
+        <button class="navbar-toggler hm" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="fas fa-bars text-white"></span>
+        </button>
+        <button class="navbar-toggler se" type="button" data-toggle="collapse" data-target=".sear">
+            <span class="fas fa-search text-white"></span>
+        </button>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2 hhm">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="store.html"><span class="fas fa-store-alt p-2"></span>Store<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="wine_history.html"><span class="fas fa-landmark p-2"></span>Wine History</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse sear w-50 order-3">
+            <ul class="nav navbar-nav ml-auto align-content-end">
+                <li class="nav-item">
+                    <form class="form-inline" method="get">
+                        <input class="form-control  mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn mt-2 my-sm-0" type="submit">
+                            <span class="fas fa-search text-white shide"></span>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+</nav>
+
+
+    <main class="container-fluid pb-4">
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid w-100" src="imgs/wine_history_rose.jpg" alt="image of wine with rose">
+                    <div class="carousel-caption">
+                        <h2>Wine History</h2>
+                        <p>We had such a great time in LA!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="row">
+
+            <article class="col-12 mt-4">
+                <h2 class="text-white text-left ml-2">Porto</h2>
+
+            </article>
+            <article id="accordion" class="col-12">
+
+
+                <div class="card">
+
+                    <div class="card-header azulclaro">
+                        <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseOne">
+                            <h4 class="text-white">Summary</h4>
+                        </a>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                        <div class="card-body azulescuro text-white">
+                            Port wine’s characteristics distinguish it from common wines. All varieties of Port have rich, intense, and very persistent aromas and flavour, with high alcohol content (usually between 19% and 22% vol.). They exist in a variety of sweetness and colours. In order to identify the several types of Port, some designations are used.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header azulclaro">
+                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseTwo">
+                            <h4 class="text-white">Detailed Information</h4>
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body azulescuro text-white">
+                            Port wine’s characteristics distinguish it from common wines. All varieties of Port have rich, intense, and very persistent aromas and flavour, with high alcohol content (usually between 19% and 22% vol.). They exist in a variety of sweetness and colours. In order to identify the several types of Port, some designations are used.
+                            Port wine’s characteristics distinguish it from common wines. All varieties of Port have rich, intense, and very persistent aromas and flavour, with high alcohol content (usually between 19% and 22% vol.). They exist in a variety of sweetness and colours. In order to identify the several types of Port, some designations are used.
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="row mt-3">
+
+            <article class="col-12 mt-4">
+                <h2 class="text-white text-left ml-2">Madeira wine</h2>
+            </article>
+            <article id="accordion1" class="col-12">
+
+
+                <div class="card">
+
+                    <div class="card-header azulclaro">
+                        <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseThree">
+                            <h4 class="text-white">Summary</h4>
+                        </a>
+                    </div>
+
+                    <div id="collapseThree" class="collapse show" data-parent="#accordion1">
+                        <div class="card-body azulescuro text-white">
+                            Portuguese sweet wine produced in the Madeira island.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header azulclaro">
+                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseFour">
+                            <h4 class="text-white">Detailed Information</h4>
+                        </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-parent="#accordion1">
+                        <div class="card-body azulescuro text-white">
+                            Portuguese sweet wine produced in the Madeira island.
+                            Portuguese sweet wine produced in the Madeira island.
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="row mt-3">
+
+            <article class="col-12 mt-4">
+                <h2 class="text-white text-left ml-2">Red wine</h2>
+            </article>
+            <article id="accordion2" class="col-12">
+
+
+                <div class="card">
+
+                    <div class="card-header azulclaro">
+                        <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseFive">
+                            <h4 class="text-white">Summary</h4>
+                        </a>
+                    </div>
+
+                    <div id="collapseFive" class="collapse show" data-parent="#accordion2">
+                        <div class="card-body azulescuro text-white">
+                            A strong and aromatic wine with a lot of different types.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header azulclaro">
+                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseSix">
+                            <h4 class="text-white">Detailed Information</h4>
+                        </a>
+                    </div>
+                    <div id="collapseSix" class="collapse" data-parent="#accordion2">
+                        <div class="card-body azulescuro text-white">
+                            O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada.                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+        <section class="row mt-3">
+
+            <article class="col-12 mt-4">
+                <h2 class="text-white text-left ml-2">Green wine</h2>
+            </article>
+            <article id="accordion3" class="col-12">
+
+
+                <div class="card">
+
+                    <div class="card-header azulclaro">
+                        <a class="card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseSeven">
+                            <h4 class="text-white">Summary</h4>
+                        </a>
+                    </div>
+
+                    <div id="collapseSeven" class="collapse show" data-parent="#accordion3">
+                        <div class="card-body azulescuro text-white">
+                            Popular wine in Portugal.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header azulclaro">
+                        <a class="collapsed card-link text-dark font-weight-bold" data-toggle="collapse" href="#collapseEight">
+                            <h4 class="text-white">Detailed Information</h4>
+                        </a>
+                    </div>
+                    <div id="collapseEight" class="collapse" data-parent="#accordion3">
+                        <div class="card-body azulescuro text-white">
+                            O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada.                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+
+    </main>
+
+
+<footer class="container-fluid py-5 pl-4 ">
+    <section class="row">
+
+        <div class="col-12 col-lg-3 col-md-6 my-2">
+            <h4 class="text-uppercase mb-4  font-weight-bold text-white mb-4 ">Whynot co.</h4>
+            <p class="text-white">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetu adipisicing elit.</p>
+        </div>
+        <div class="col-12 col-lg-3 col-md-6 my-2 d-none d-sm-block">
+
+            <h4 class="text-uppercase mb-4 font-weight-bold text-white mb-4">Products</h4>
+            <a href="#" class="text-white d-sm-block">Wine Houses in Portugal</a>
+            <a href="#" class="text-white d-sm-block">Wine producers from Alentejo</a>
+            <a href="#" class="text-white d-sm-block">Signed wine colaborations </a>
+            <a href="#" class="text-white d-sm-block">Wine Houses in Italy</a>
+
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-6 my-2 d-none d-sm-block">
+            <h4 class="text-uppercase mb-4 font-weight-bold text-white mb-4 ">our services</h4>
+
+            <a href="#" class="text-white d-sm-block">Your Account</a>
+
+            <a href="#" class="text-white d-sm-block">Become an Affiliate</a>
+
+            <a href="#" class="text-white d-sm-block">Shipping Rates</a>
+
+            <a href="#" class="text-white d-sm-block">Help</a>
+        </div>
+
+
+        <div class="col-12 col-lg-3 col-md-6 my-2">
+            <h4 class="text-uppercase font-weight-bold text-white mb-4">Contact</h4>
+            <p class="fas fa-home text-white d-sm-block">
+                <span class="font-weight-normal">Aveiro</span>
+            </p>
+            <p class="fas fa-envelope text-white d-sm-block">
+                <span class="font-weight-normal"> whynot@gmail.com</span>
+            </p>
+            <p class="fas fa-phone text-white d-sm-block">
+                <span class="font-weight-normal"> + 351 234 567 880</span></p>
+            <p class="fas fa-print text-white d-sm-block">
+                <span class="font-weight-normal"> + 351 935 568 891</span>
+            </p>
+        </div>
+    </section>
+    <section class="d-flex justify-content-between row">
+        <div class="text-left text-white d-inline text-white col-6 py-0">© 2018 Copyright: WhyNot</div>
+        <div class="text-right d-inline text-white col-6">
+            <span class="fab fa-facebook  fa-2x text-white"></span>
+            <span class="fab fa-instagram fa-2x text-white"></span>
+            <span class="fab fa-twitter fa-2x text-white"></span>
+            <span class="fab fa-linkedin fa-2x text-white"></span>
+        </div>
+    </section>
+</footer>
+
+
+</body>
+</html>
